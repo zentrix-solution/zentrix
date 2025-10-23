@@ -92,9 +92,9 @@ export default function HeroSection() {
       </nav>
 
       {/* Hero Content */}
-      <div className="flex flex-col lg:flex-row items-center justify-between px-4 sm:px-6 py-8 sm:py-12 relative z-10 max-w-7xl mx-auto">
+      <div className="flex flex-col lg:flex-row items-center justify-between px-4 sm:px-6 py-8 sm:py-12 relative z-10 max-w-7xl mx-auto gap-8 lg:gap-12">
         {/* Left Content */}
-        <div className="w-full lg:w-1/2 mb-8 lg:mb-0 text-center lg:text-left">
+        <div className="w-full lg:w-1/2 text-center lg:text-left">
           {/* Hello Tag */}
           <div className="inline-block bg-orange-400 text-white px-3 py-2 sm:px-4 rounded-full text-xs sm:text-sm font-semibold mb-4 sm:mb-6 transform rotate-3">
             HELLO, ISP
@@ -132,37 +132,37 @@ export default function HeroSection() {
         </div>
 
         {/* Right Content - Service Preview Cards */}
-        <div className="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 max-w-lg mx-auto lg:max-w-none">
+        <div className="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-4 xl:gap-6 max-w-sm sm:max-w-lg lg:max-w-md xl:max-w-lg mx-auto lg:mx-0">
           {/* Card 1 - High Speed */}
-          <div className="bg-orange-500 rounded-2xl p-4 sm:p-6 text-white transform hover:-translate-y-2 transition-all duration-300 shadow-lg">
-            <Rocket className="w-6 h-6 sm:w-8 sm:h-8 mb-2 sm:mb-3" />
-            <h3 className="text-base sm:text-lg font-bold mb-1 sm:mb-2">Creating lightning-fast connections</h3>
+          <div className="bg-orange-500 rounded-2xl p-4 sm:p-5 lg:p-4 xl:p-6 text-white transform hover:-translate-y-2 transition-all duration-300 shadow-lg">
+            <Rocket className="w-6 h-6 sm:w-7 sm:h-7 lg:w-6 lg:h-6 xl:w-8 xl:h-8 mb-3" />
+            <h3 className="text-sm sm:text-base lg:text-sm xl:text-lg font-bold mb-2 leading-tight">Creating lightning-fast connections</h3>
             <p className="text-xs sm:text-sm text-orange-100">Up to 1 Gbps speeds</p>
           </div>
 
           {/* Card 2 - Fiber Network */}
-          <div className="bg-green-100 rounded-2xl p-4 sm:p-6 text-gray-800 transform hover:-translate-y-2 transition-all duration-300 shadow-lg">
-            <Radio className="w-6 h-6 sm:w-8 sm:h-8 mb-2 sm:mb-3 text-gray-800" />
-            <h3 className="text-base sm:text-lg font-bold mb-1 sm:mb-2">The power of putting fiber to work</h3>
+          <div className="bg-green-100 rounded-2xl p-4 sm:p-5 lg:p-4 xl:p-6 text-gray-800 transform hover:-translate-y-2 transition-all duration-300 shadow-lg">
+            <Radio className="w-6 h-6 sm:w-7 sm:h-7 lg:w-6 lg:h-6 xl:w-8 xl:h-8 mb-3 text-gray-800" />
+            <h3 className="text-sm sm:text-base lg:text-sm xl:text-lg font-bold mb-2 leading-tight">The power of putting fiber to work</h3>
             <p className="text-xs sm:text-sm text-gray-600">Reliable connections</p>
           </div>
 
           {/* Card 3 - Enterprise */}
-          <div className="bg-yellow-100 rounded-2xl p-4 sm:p-6 text-gray-800 transform hover:-translate-y-2 transition-all duration-300 shadow-lg">
-            <Building2 className="w-6 h-6 sm:w-8 sm:h-8 mb-2 sm:mb-3 text-gray-800" />
-            <h3 className="text-base sm:text-lg font-bold mb-1 sm:mb-2">Enterprise solutions for growing businesses</h3>
+          <div className="bg-yellow-100 rounded-2xl p-4 sm:p-5 lg:p-4 xl:p-6 text-gray-800 transform hover:-translate-y-2 transition-all duration-300 shadow-lg">
+            <Building2 className="w-6 h-6 sm:w-7 sm:h-7 lg:w-6 lg:h-6 xl:w-8 xl:h-8 mb-3 text-gray-800" />
+            <h3 className="text-sm sm:text-base lg:text-sm xl:text-lg font-bold mb-2 leading-tight">Enterprise solutions for growing businesses</h3>
             <p className="text-xs sm:text-sm text-gray-600">Scalable packages</p>
           </div>
 
           {/* Card 4 - Support */}
-          <div className="bg-gray-800 rounded-2xl p-4 sm:p-6 text-white transform hover:-translate-y-2 transition-all duration-300 shadow-lg">
-            <div className="flex items-center justify-between mb-2 sm:mb-3">
-              <div className="w-6 h-6 sm:w-8 sm:h-8 bg-green-500 rounded-full"></div>
+          <div className="bg-gray-800 rounded-2xl p-4 sm:p-5 lg:p-4 xl:p-6 text-white transform hover:-translate-y-2 transition-all duration-300 shadow-lg">
+            <div className="flex items-center justify-between mb-3">
+              <div className="w-6 h-6 sm:w-7 sm:h-7 lg:w-6 lg:h-6 xl:w-8 xl:h-8 bg-green-500 rounded-full"></div>
               <span className="text-xs text-gray-400">●●●</span>
             </div>
-            <h3 className="text-xs sm:text-sm font-bold mb-1 sm:mb-2">@ZentrixSupport</h3>
-            <p className="text-xs text-gray-300">24/7 customer support ready to help you stay connected</p>
-            <div className="text-xs text-gray-400 mt-1 sm:mt-2">Customer success</div>
+            <h3 className="text-sm sm:text-base lg:text-sm xl:text-lg font-bold mb-2">@ZentrixSupport</h3>
+            <p className="text-xs text-gray-300 leading-tight">24/7 customer support ready to help you stay connected</p>
+            <div className="text-xs text-gray-400 mt-2">Customer success</div>
           </div>
         </div>
       </div>
