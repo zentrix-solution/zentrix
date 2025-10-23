@@ -177,8 +177,8 @@ export default function HeroSection() {
       </div>
 
       {/* Wave Divider */}
-      <div className="absolute bottom-0 left-0 w-full transform translate-y-6 sm:translate-y-12">
-        <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+      <div className="absolute bottom-0 left-0 w-full -mb-1">
+        <svg viewBox="0 0 1440 120" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto block">
           <path d="M0,60 Q360,10 720,60 T1440,60 L1440,120 L0,120 Z" fill="white"/>
           <path d="M0,80 Q180,30 360,80 T720,80 Q1080,30 1440,80 L1440,120 L0,120 Z" fill="rgba(255,255,255,0.7)"/>
         </svg>

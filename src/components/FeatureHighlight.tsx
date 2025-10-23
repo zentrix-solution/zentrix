@@ -54,8 +54,8 @@ export default function FeatureHighlight() {
       </div>
 
       {/* Wave Divider */}
-      <div className="absolute bottom-0 left-0 w-full">
-        <svg viewBox="0 0 1200 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto">
+      <div className="absolute bottom-0 left-0 w-full -mb-1">
+        <svg viewBox="0 0 1440 80" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-auto block">
           <path d="M0,64L48,54C96,44,192,24,288,24C384,24,480,44,576,54C672,64,768,64,864,54C960,44,1056,24,1152,24C1248,24,1344,44,1392,54L1440,64L1440,80L1392,80C1344,80,1248,80,1152,80C1056,80,960,80,864,80C768,80,672,80,576,80C480,80,384,80,288,80C192,80,96,80,48,80L0,80Z" fill="white"/>
         </svg>
       </div>
