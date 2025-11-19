@@ -30,7 +30,7 @@ export default function Footer() {
             <div className="mb-4 sm:mb-6">
               <a href="tel:+18336601996" className="flex items-center text-green-400 hover:text-green-300 transition-colors">
                 <span className="mr-2">📞</span>
-                <span className="font-semibold text-sm sm:text-base">1-833-660-1996</span>
+                <span className="font-semibold text-sm sm:text-base">(833) 660-1996</span>
               </a>
             </div>
             <div className="flex space-x-3 sm:space-x-4">

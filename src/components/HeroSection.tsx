@@ -39,7 +39,7 @@ export default function HeroSection() {
           <a href="tel:+18336601996">
             <Button className="bg-green-500 hover:bg-green-600 text-white font-semibold px-3 py-2 sm:px-4 lg:px-6 rounded-full text-xs sm:text-sm">
               <span className="hidden sm:inline">📞 </span>
-              <span className="hidden md:inline">1-833-660-1996</span>
+              <span className="hidden md:inline">(833) 660-1996</span>
               <span className="md:hidden">Call</span>
             </Button>
           </a>
@@ -83,7 +83,7 @@ export default function HeroSection() {
             <div className="px-4 pt-4 border-t border-gray-200 sm:hidden">
               <a href="tel:+18336601996" onClick={closeMenu}>
                 <Button className="w-full bg-green-500 hover:bg-green-600 text-white font-semibold py-3 rounded-full">
-                  📞 Call 1-833-660-1996
+                  📞 Call (833) 660-1996
                 </Button>
               </a>
             </div>

@@ -22,7 +22,7 @@ export default function Contact() {
     {
       title: "Call Us",
       description: "Speak with our friendly support team",
-      info: "1-833-660-1996",
+      info: "(833) 660-1996",
       icon: <Phone className="w-8 h-8" />,
       color: "bg-green-500"
     },
