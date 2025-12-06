@@ -29,7 +29,7 @@ export default function Contact() {
     {
       title: "Email Support",
       description: "Get help via email within 2 hours",
-      info: "support@zentrixsolution.com",
+      info: "support@zenstreamsolution.com",
       icon: <Mail className="w-8 h-8" />,
       color: "bg-blue-500"
     },
@@ -344,10 +344,10 @@ export default function Contact() {
       <section className="py-20 bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-800 text-white">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-black mb-6">
-            Ready to Experience Zentrix Speed?
+            Ready to Experience Zenstream Speed?
           </h2>
           <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of satisfied customers who chose Zentrix Solution for their internet needs.
+            Join thousands of satisfied customers who chose Zenstream for their internet needs.
           </p>
           <Button asChild className="bg-green-500 hover:bg-green-600 text-white font-bold px-8 py-4 rounded-full text-lg transform hover:scale-105 transition-all duration-200">
             <Link to="/pricing">Check Availability Now</Link>

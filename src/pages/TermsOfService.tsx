@@ -43,7 +43,7 @@ export default function TermsOfService() {
               </div>
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 p-6 rounded-xl border-l-4 border-blue-500">
                 <p className="text-gray-700 text-lg leading-relaxed">
-                  By accessing and using Zentrix Solution's internet services, you accept and agree to be 
+                  By accessing and using Zenstream's internet services, you accept and agree to be 
                   bound by the terms and provision of this agreement. If you do not agree to abide by 
                   the above, please do not use this service.
                 </p>
@@ -211,7 +211,7 @@ export default function TermsOfService() {
                 <h2 className="text-3xl font-bold text-gray-900">Contact Information</h2>
               </div>
               <div className="bg-gradient-to-r from-blue-600 to-purple-600 p-8 rounded-2xl text-white">
-                <h3 className="text-2xl font-bold mb-4">Zentrix Solution</h3>
+                <h3 className="text-2xl font-bold mb-4">Zenstream</h3>
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="flex items-center">
                     <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center mr-4">

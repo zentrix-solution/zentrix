@@ -22,7 +22,7 @@ export default function Footer() {
               <div className="w-8 h-8 sm:w-10 sm:h-10 bg-purple-600 rounded-full flex items-center justify-center">
                 <Zap className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
               </div>
-              <span className="text-white font-bold text-base sm:text-lg">ZENTRIX SOLUTION</span>
+              <span className="text-white font-bold text-base sm:text-lg">ZENSTREAM</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-4 sm:mb-6">
               Your trusted internet service provider delivering speed, reliability, and exceptional customer service across the region.
@@ -63,7 +63,7 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-bold mb-4 sm:mb-6 text-base sm:text-lg">Company</h4>
             <ul className="space-y-2 sm:space-y-3 text-gray-400 text-sm">
-              <li><Link to="/about" className="hover:text-white transition-colors">About Zentrix</Link></li>
+              <li><Link to="/about" className="hover:text-white transition-colors">About Zenstream</Link></li>
               <li><Link to="/solutions" className="hover:text-white transition-colors">Our Network</Link></li>
               <li><Link to="/about" className="hover:text-white transition-colors">Careers</Link></li>
               <li><Link to="/about" className="hover:text-white transition-colors">Press & Media</Link></li>
@@ -85,7 +85,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center space-y-4 sm:space-y-0">
           <p className="text-gray-400 text-xs sm:text-sm text-center sm:text-left">
-            © 2025 Zentrix Solution. All rights reserved.
+            © 2025 Zenstream. All rights reserved.
           </p>
           <div className="flex flex-wrap justify-center space-x-4 sm:space-x-6 text-gray-400 text-xs sm:text-sm">
             <Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>

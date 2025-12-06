@@ -4,85 +4,76 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { Link } from 'react-router-dom';
 import { useScrollToTopOnMount } from '@/hooks/useScrollToTopOnMount';
-import { Home, Building2, Globe, Wifi, Cloud, Shield, Phone, Check, Heart, GraduationCap, ShoppingBag, Factory, Hotel, Landmark } from 'lucide-react';
+import { Home, Building2, Globe, Wifi, Cloud, Shield, Phone, Check, Play } from 'lucide-react';
 
 export default function Solutions() {
   useScrollToTopOnMount();
   
   const solutions = [
     {
-      title: "Residential Internet",
-      description: "Fast, reliable internet for your home and family",
-      features: ["Up to 1 Gigabit speeds", "No data caps", "24/7 support", "Easy installation"],
+      title: "Individual Streamer",
+      description: "Perfect for singles and couples",
+      features: ["300 Mbps Fiber Internet", "5+ streaming services", "Stream on 4 devices", "No contracts"],
       icon: <Home className="w-20 h-20" />,
       color: "from-blue-500 to-purple-600",
       plans: [
-        { name: "Essential", speed: "100 Mbps", price: "$39.99" },
-        { name: "Performance", speed: "500 Mbps", price: "$59.99" },
-        { name: "Gigabit", speed: "1000 Mbps", price: "$79.99" }
+        { name: "Solo Streamer", speed: "300 Mbps + 3 Services", price: "$39.99" },
+        { name: "Duo Bundle", speed: "500 Mbps + 5 Services", price: "$59.99" },
+        { name: "Premium Duo", speed: "1 Gbps + 7 Services", price: "$79.99" }
       ]
     },
     {
-      title: "Business Solutions",
-      description: "Powerful connectivity for small to medium businesses",
-      features: ["Dedicated bandwidth", "Static IP addresses", "Priority support", "SLA guarantee"],
+      title: "Family Entertainment",
+      description: "Built for families and shared households",
+      features: ["Unlimited devices", "All premium streaming", "Live TV channels", "4K streaming"],
       icon: <Building2 className="w-20 h-20" />,
       color: "from-green-500 to-blue-600",
       plans: [
-        { name: "Business Basic", speed: "200 Mbps", price: "$89.99" },
-        { name: "Business Pro", speed: "500 Mbps", price: "$149.99" },
-        { name: "Business Elite", speed: "1000 Mbps", price: "$199.99" }
+        { name: "Family Starter", speed: "500 Mbps + 8 Services", price: "$89.99" },
+        { name: "Family Pro", speed: "1 Gbps + 10 Services", price: "$119.99" },
+        { name: "Ultimate Family", speed: "1 Gbps + All Services + Live TV", price: "$149.99" }
       ]
     },
     {
-      title: "Enterprise Solutions",
-      description: "Scalable solutions for large organizations",
-      features: ["Fiber-optic connectivity", "Redundant connections", "24/7/365 support", "Custom solutions"],
+      title: "Sports & Live TV",
+      description: "For sports fans and live content lovers",
+      features: ["150+ Live TV channels", "Sports packages included", "DVR cloud storage", "Multi-screen viewing"],
       icon: <Globe className="w-20 h-20" />,
       color: "from-purple-500 to-pink-600",
       plans: [
-        { name: "Enterprise Starter", speed: "1 Gbps", price: "Custom" },
-        { name: "Enterprise Pro", speed: "10 Gbps", price: "Custom" },
-        { name: "Enterprise Max", speed: "100 Gbps", price: "Custom" }
+        { name: "Sports Lite", speed: "500 Mbps + Basic Sports", price: "$99.99" },
+        { name: "Sports Pro", speed: "1 Gbps + Premium Sports", price: "$139.99" },
+        { name: "Sports Ultimate", speed: "1 Gbps + All Sports + PPV", price: "$179.99" }
       ]
     }
   ];
 
   const additionalServices = [
     {
-      title: "WiFi Management",
-      description: "Professional WiFi setup and management for optimal coverage",
+      title: "Premium Add-Ons",
+      description: "Enhance your streaming experience",
       icon: <Wifi className="w-16 h-16" />,
-      benefits: ["Whole-home coverage", "Mesh networking", "Security optimization", "Performance monitoring"]
+      benefits: ["Premium movie channels", "International content", "Ad-free upgrades", "Early access releases"]
     },
     {
-      title: "Cloud Services",
-      description: "Secure cloud storage and backup solutions",
+      title: "Cloud DVR",
+      description: "Record and watch on your schedule",
       icon: <Cloud className="w-16 h-16" />,
-      benefits: ["Automatic backups", "File synchronization", "Disaster recovery", "Scalable storage"]
+      benefits: ["500 hours storage", "Unlimited recordings", "Watch anywhere", "Keep for 1 year"]
     },
     {
-      title: "Security Solutions",
-      description: "Advanced cybersecurity to protect your network",
+      title: "Multi-Device Setup",
+      description: "Stream on all your devices",
       icon: <Shield className="w-16 h-16" />,
-      benefits: ["Firewall protection", "Threat monitoring", "VPN access", "Security audits"]
+      benefits: ["Smart TV setup", "Mobile apps", "Gaming console config", "Streaming stick included"]
     },
     {
-      title: "Voice Services",
-      description: "Crystal-clear VoIP phone systems",
+      title: "Premium Support",
+      description: "VIP customer service",
       icon: <Phone className="w-16 h-16" />,
-      benefits: ["HD voice quality", "Unlimited calling", "Mobile app", "Advanced features"]
+      benefits: ["Priority phone support", "Live chat 24/7", "Tech setup help", "Streaming troubleshooting"]
     }
   ];
-
-  const industryIcons = {
-    "Healthcare": <Heart className="w-12 h-12" />,
-    "Education": <GraduationCap className="w-12 h-12" />,
-    "Retail": <ShoppingBag className="w-12 h-12" />,
-    "Manufacturing": <Factory className="w-12 h-12" />,
-    "Hospitality": <Hotel className="w-12 h-12" />,
-    "Finance": <Landmark className="w-12 h-12" />
-  };
 
   return (
     <div className="min-h-screen">
@@ -95,13 +86,13 @@ export default function Solutions() {
             OUR SOLUTIONS
           </div>
           <h1 className="text-5xl md:text-7xl font-black mb-6">
-            Internet Solutions for
+            Entertainment Plans for
             <br />
-            <span className="text-yellow-300">Every Need</span>
+            <span className="text-yellow-300">Every Lifestyle</span>
           </h1>
           <p className="text-xl md:text-2xl text-purple-100 max-w-3xl mx-auto leading-relaxed">
-            From residential homes to enterprise businesses, we have the perfect 
-            connectivity solution tailored to your specific requirements.
+            From cord-cutters to binge-watchers, we have the perfect high-speed internet plan with streaming access 
+            that fits your entertainment needs and budget.
           </p>
         </div>
       </section>
@@ -111,10 +102,10 @@ export default function Solutions() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <div className="inline-block bg-blue-100 text-blue-600 px-6 py-3 rounded-full text-sm font-semibold mb-6">
-              CONNECTIVITY SOLUTIONS
+              STREAMING BUNDLES
             </div>
             <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
-              Choose Your Perfect Plan
+              Choose Your Perfect Bundle
             </h2>
           </div>
 
@@ -173,13 +164,13 @@ export default function Solutions() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <div className="inline-block bg-green-100 text-green-600 px-6 py-3 rounded-full text-sm font-semibold mb-6">
-              ADDITIONAL SERVICES
+              ENHANCE YOUR BUNDLE
             </div>
             <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
-              Complete Your Digital Experience
+              Upgrade Your Entertainment
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Enhance your connectivity with our comprehensive suite of digital services
+              Add premium channels, cloud DVR, and more to customize your streaming experience
             </p>
           </div>
 
@@ -210,36 +201,43 @@ export default function Solutions() {
         </div>
       </section>
 
-      {/* Industry Solutions */}
+      {/* Streaming Services Showcase */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <div className="inline-block bg-purple-100 text-purple-600 px-6 py-3 rounded-full text-sm font-semibold mb-6">
-              INDUSTRY EXPERTISE
+              INCLUDED STREAMING SERVICES
             </div>
             <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
-              Specialized Solutions by Industry
+              All Your Favorites in One Place
             </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Access premium streaming platforms without paying separately for each subscription
+            </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { industry: "Healthcare", needs: ["HIPAA compliance", "Secure data transfer", "Telemedicine support", "24/7 reliability"] },
-              { industry: "Education", needs: ["High bandwidth", "Student device support", "Learning management", "Safe browsing"] },
-              { industry: "Retail", needs: ["POS systems", "Inventory management", "Customer WiFi", "Security cameras"] },
-              { industry: "Manufacturing", needs: ["IoT connectivity", "Real-time monitoring", "Supply chain integration", "Industrial protocols"] },
-              { industry: "Hospitality", needs: ["Guest WiFi", "Property management", "Booking systems", "Entertainment services"] },
-              { industry: "Finance", needs: ["Ultra-secure connections", "High-speed trading", "Backup systems", "Compliance support"] }
+              { service: "Netflix Premium", features: ["4K streaming", "Watch on 4 screens", "Unlimited movies & shows", "Download content"] },
+              { service: "Hulu (No Ads)", features: ["Ad-free experience", "Entire content library", "Next-day TV episodes", "Hulu Originals"] },
+              { service: "Disney+", features: ["Disney, Pixar, Marvel", "Star Wars content", "National Geographic", "Family profiles"] },
+              { service: "HBO Max", features: ["HBO original series", "Warner Bros movies", "DC Universe", "Max Originals"] },
+              { service: "Paramount+", features: ["CBS live stream", "Paramount movies", "Sports content", "Original shows"] },
+              { service: "Live TV Package", features: ["150+ channels", "Local news & sports", "DVR included", "Watch anywhere"] }
             ].map((item, index) => (
               <Card key={index} className="p-8 rounded-3xl shadow-lg hover:shadow-xl transform hover:-translate-y-2 transition-all duration-300">
                 <div className="text-center">
-                  <div className="mb-6 flex justify-center text-purple-600">{industryIcons[item.industry as keyof typeof industryIcons]}</div>
-                  <h3 className="text-xl font-bold text-gray-900 mb-6">{item.industry}</h3>
+                  <div className="mb-6 flex justify-center">
+                    <div className="w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-2xl flex items-center justify-center">
+                      <Play className="w-8 h-8 text-white" />
+                    </div>
+                  </div>
+                  <h3 className="text-xl font-bold text-gray-900 mb-6">{item.service}</h3>
                   <div className="space-y-3">
-                    {item.needs.map((need, nIndex) => (
-                      <div key={nIndex} className="flex items-center text-sm text-gray-600">
+                    {item.features.map((feature, fIndex) => (
+                      <div key={fIndex} className="flex items-center text-sm text-gray-600">
                         <Check className="w-4 h-4 mr-3 text-purple-500" />
-                        <span>{need}</span>
+                        <span>{feature}</span>
                       </div>
                     ))}
                   </div>
@@ -254,10 +252,10 @@ export default function Solutions() {
       <section className="py-20 bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-800 text-white">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-black mb-6">
-            Ready to Find Your Perfect Solution?
+            Ready to Upgrade Your Entertainment?
           </h2>
           <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-            Let our experts help you choose the right connectivity solution for your specific needs.
+            Join thousands enjoying ultra-fast internet with premium streaming access. Get started today!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18336601996">

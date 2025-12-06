@@ -457,7 +457,7 @@ export default function Pricing() {
               Ready to Switch to Better Internet?
             </h2>
             <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-              Join thousands of satisfied customers who experience the Zentrix difference every day.
+              Join thousands of satisfied customers who experience the Zenstream difference every day.
             </p>
             <a href="tel:+18336601996">
               <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold px-8 py-4 rounded-full text-lg transform hover:scale-105 transition-all duration-200">

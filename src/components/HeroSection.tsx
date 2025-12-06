@@ -21,7 +21,7 @@ export default function HeroSection() {
           <div className="w-6 h-6 sm:w-8 sm:h-8 bg-white rounded-full flex items-center justify-center">
             <Zap className="w-3 h-3 sm:w-4 sm:h-4 text-purple-600" />
           </div>
-          <span className="text-white font-semibold text-sm sm:text-base">ZENTRIX SOLUTION</span>
+          <span className="text-white font-semibold text-sm sm:text-base">ZENSTREAM</span>
         </div>
         
         {/* Desktop Navigation */}
@@ -103,25 +103,18 @@ export default function HeroSection() {
           <div className="mb-6 sm:mb-8">
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start mb-2 sm:mb-4">
               <span className="text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black text-white leading-none">
-                INTERNET
+                STREAM
               </span>
             </div>
             <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start">
               <span className="text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black text-white leading-none mb-4 sm:mb-0">
-                ON DEMAND
+                EVERYTHING
               </span>
-              <div className="ml-0 sm:ml-4 bg-white rounded-2xl p-2 sm:p-3 transform -rotate-12 hover:rotate-0 transition-transform duration-300">
-                <div className="text-center">
-                  <Smile className="w-6 h-6 sm:w-8 sm:h-8 text-purple-600 mx-auto mb-1 sm:mb-2" />
-                  <div className="text-xs text-gray-600 font-semibold">Connecting on a</div>
-                  <div className="text-xs text-gray-600 font-semibold">Fiber Cloud</div>
-                </div>
-              </div>
             </div>
           </div>
           
           <p className="text-lg sm:text-xl lg:text-2xl text-purple-100 mb-6 sm:mb-8 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-            We take your connectivity stress away, so you can focus on what matters most.
+            Blazing-fast fiber internet with access to all your favorite streaming platforms. Stream, surf, and game without limits.
           </p>
           
           <a href="tel:+18336601996">
@@ -133,25 +126,25 @@ export default function HeroSection() {
 
         {/* Right Content - Service Preview Cards */}
         <div className="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6 lg:gap-4 xl:gap-6 max-w-sm sm:max-w-lg lg:max-w-md xl:max-w-lg mx-auto lg:mx-0">
-          {/* Card 1 - High Speed */}
+          {/* Card 1 - Fiber Internet */}
           <div className="bg-orange-500 rounded-2xl p-4 sm:p-5 lg:p-4 xl:p-6 text-white transform hover:-translate-y-2 transition-all duration-300 shadow-lg">
             <Rocket className="w-6 h-6 sm:w-7 sm:h-7 lg:w-6 lg:h-6 xl:w-8 xl:h-8 mb-3" />
-            <h3 className="text-sm sm:text-base lg:text-sm xl:text-lg font-bold mb-2 leading-tight">Creating lightning-fast connections</h3>
-            <p className="text-xs sm:text-sm text-orange-100">Up to 1 Gbps speeds</p>
+            <h3 className="text-sm sm:text-base lg:text-sm xl:text-lg font-bold mb-2 leading-tight">Fiber-fast internet</h3>
+            <p className="text-xs sm:text-sm text-orange-100">Up to 1 Gbps speeds for seamless streaming</p>
           </div>
 
-          {/* Card 2 - Fiber Network */}
+          {/* Card 2 - Streaming Bundle */}
           <div className="bg-green-100 rounded-2xl p-4 sm:p-5 lg:p-4 xl:p-6 text-gray-800 transform hover:-translate-y-2 transition-all duration-300 shadow-lg">
             <Radio className="w-6 h-6 sm:w-7 sm:h-7 lg:w-6 lg:h-6 xl:w-8 xl:h-8 mb-3 text-gray-800" />
-            <h3 className="text-sm sm:text-base lg:text-sm xl:text-lg font-bold mb-2 leading-tight">The power of putting fiber to work</h3>
-            <p className="text-xs sm:text-sm text-gray-600">Reliable connections</p>
+            <h3 className="text-sm sm:text-base lg:text-sm xl:text-lg font-bold mb-2 leading-tight">Premium streaming included</h3>
+            <p className="text-xs sm:text-sm text-gray-600">Netflix, Hulu, Disney+ & more</p>
           </div>
 
-          {/* Card 3 - Enterprise */}
+          {/* Card 3 - Live TV */}
           <div className="bg-yellow-100 rounded-2xl p-4 sm:p-5 lg:p-4 xl:p-6 text-gray-800 transform hover:-translate-y-2 transition-all duration-300 shadow-lg">
             <Building2 className="w-6 h-6 sm:w-7 sm:h-7 lg:w-6 lg:h-6 xl:w-8 xl:h-8 mb-3 text-gray-800" />
-            <h3 className="text-sm sm:text-base lg:text-sm xl:text-lg font-bold mb-2 leading-tight">Enterprise solutions for growing businesses</h3>
-            <p className="text-xs sm:text-sm text-gray-600">Scalable packages</p>
+            <h3 className="text-sm sm:text-base lg:text-sm xl:text-lg font-bold mb-2 leading-tight">Live TV + Sports channels</h3>
+            <p className="text-xs sm:text-sm text-gray-600">150+ live channels included</p>
           </div>
 
           {/* Card 4 - Support */}
@@ -161,8 +154,8 @@ export default function HeroSection() {
               <span className="text-xs text-gray-400">●●●</span>
             </div>
             <h3 className="text-sm sm:text-base lg:text-sm xl:text-lg font-bold mb-2">@ZentrixSupport</h3>
-            <p className="text-xs text-gray-300 leading-tight">24/7 customer support ready to help you stay connected</p>
-            <div className="text-xs text-gray-400 mt-2">Customer success</div>
+            <p className="text-xs text-gray-300 leading-tight">24/7 support for streaming & connectivity issues</p>
+            <div className="text-xs text-gray-400 mt-2">Always here to help</div>
           </div>
         </div>
       </div>

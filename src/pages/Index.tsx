@@ -2,6 +2,7 @@ import HeroSection from '@/components/HeroSection';
 import ServiceCards from '@/components/ServiceCards';
 import StatsSection from '@/components/StatsSection';
 import FeatureHighlight from '@/components/FeatureHighlight';
+import StreamingShowcase from '@/components/StreamingShowcase';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import HowItWorks from '@/components/HowItWorks';
 import CoverageMap from '@/components/CoverageMap';
@@ -22,6 +23,7 @@ export default function Index() {
       <HeroSection />
       <ServiceCards />
       <StatsSection />
+      <StreamingShowcase />
       <FeatureHighlight />
       <WhyChooseUs />
       <HowItWorks />

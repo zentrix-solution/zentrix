@@ -1,30 +1,30 @@
 import { Card } from '@/components/ui/card';
-import { Rocket, Gem, Building, Wrench, Star } from 'lucide-react';
+import { Tv, Wifi, Play, Headphones, Star } from 'lucide-react';
 
 export default function ServiceCards() {
   const services = [
     {
-      title: "High-Speed Broadband",
-      description: "Lightning-fast internet for your home",
-      icon: Rocket,
+      title: "Gigabit Internet",
+      description: "Blazing-fast fiber speeds up to 1 Gbps",
+      icon: Wifi,
       color: "bg-orange-500"
     },
     {
-      title: "Fiber Optic Network",
-      description: "Ultra-reliable fiber connections",
-      icon: Gem,
+      title: "Premium Streaming",
+      description: "Netflix, Hulu, Disney+ & more included",
+      icon: Play,
       color: "bg-blue-500"
     },
     {
-      title: "Enterprise Solutions",
-      description: "Scalable business internet packages",
-      icon: Building,
+      title: "Live TV Channels",
+      description: "150+ channels with sports & news",
+      icon: Tv,
       color: "bg-green-500"
     },
     {
       title: "24/7 Support",
-      description: "Round-the-clock technical assistance",
-      icon: Wrench,
+      description: "Expert help for all streaming issues",
+      icon: Headphones,
       color: "bg-purple-500"
     }
   ];

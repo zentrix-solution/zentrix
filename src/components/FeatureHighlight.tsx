@@ -8,13 +8,13 @@ export default function FeatureHighlight() {
         {/* Left Content */}
         <div className="w-full lg:w-1/2 text-white mb-8 lg:mb-0 text-center lg:text-left">
           <div className="text-4xl sm:text-6xl lg:text-7xl xl:text-8xl font-black mb-4 sm:mb-6 leading-none">
-            5,4,3,2,1
+            STREAM NOW!
           </div>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 leading-tight">
-            That's how quickly we get your Internet LIVE!
+            Instant access to 1000s of movies & shows
           </h2>
           <p className="text-lg sm:text-xl text-red-100 mb-6 sm:mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
-            No more waiting weeks for installation. Our rapid deployment team gets you connected faster than you can count down from five.
+            Get fiber internet + premium streaming services activated instantly. Watch what you want, when you want, on any device.
           </p>
           <Button className="bg-green-500 hover:bg-green-600 text-white font-bold px-6 py-3 sm:px-8 sm:py-4 rounded-full text-base sm:text-lg transform hover:scale-105 transition-all duration-200 shadow-lg">
             CHECK OUT PLANS
@@ -26,18 +26,18 @@ export default function FeatureHighlight() {
           <div className="relative max-w-xs sm:max-w-sm">
             {/* Phone Mockup */}
             <div className="bg-white rounded-3xl p-3 sm:p-4 shadow-2xl transform rotate-6 lg:rotate-12 hover:rotate-3 lg:hover:rotate-6 transition-transform duration-300">
-              <div className="bg-green-500 rounded-2xl p-4 sm:p-6 text-white">
+              <div className="bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl p-4 sm:p-6 text-white">
                 <div className="flex items-center justify-between mb-3 sm:mb-4">
-                  <span className="text-xs sm:text-sm font-semibold">ZENTRIX PORTAL</span>
+                  <span className="text-xs sm:text-sm font-semibold">ZENTRIX STREAMING</span>
                   <div className="w-5 h-5 sm:w-6 sm:h-6 bg-white rounded-full flex items-center justify-center">
                     <Check className="w-3 h-3 sm:w-4 sm:h-4 text-green-500" />
                   </div>
                 </div>
-                <h3 className="text-base sm:text-lg font-bold mb-2">Installation Complete!</h3>
-                <p className="text-xs sm:text-sm text-green-100 mb-3 sm:mb-4">Your internet is now live and ready to use.</p>
+                <h3 className="text-base sm:text-lg font-bold mb-2">All Services Active!</h3>
+                <p className="text-xs sm:text-sm text-purple-100 mb-3 sm:mb-4">Start watching on any device right now.</p>
                 <div className="bg-white/20 rounded-lg p-2 sm:p-3">
-                  <div className="text-xs text-green-100 mb-1">Speed Test Result</div>
-                  <div className="text-xl sm:text-2xl font-bold">500 Mbps</div>
+                  <div className="text-xs text-purple-100 mb-1">Available Services</div>
+                  <div className="text-xl sm:text-2xl font-bold">10+ Platforms</div>
                 </div>
               </div>
             </div>

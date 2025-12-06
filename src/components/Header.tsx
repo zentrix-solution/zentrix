@@ -28,7 +28,7 @@ export default function Header() {
             <div className="w-6 h-6 sm:w-8 sm:h-8 bg-purple-600 rounded-full flex items-center justify-center">
               <Zap className="w-3 h-3 sm:w-4 sm:h-4 text-white" />
             </div>
-            <span className="text-gray-900 font-semibold text-sm sm:text-base lg:text-lg">ZENTRIX SOLUTION</span>
+            <span className="text-gray-900 font-semibold text-sm sm:text-base lg:text-lg">ZENSTREAM</span>
           </Link>
 
           {/* Desktop Navigation */}

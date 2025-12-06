@@ -1,30 +1,30 @@
 import { Card } from '@/components/ui/card';
-import { Users, Zap, Wrench, Rocket } from 'lucide-react';
+import { Users, Tv, Play, Wifi } from 'lucide-react';
 
 export default function StatsSection() {
   const stats = [
     {
-      number: "50K+",
-      label: "Happy Customers",
+      number: "75K+",
+      label: "Streaming Subscribers",
       icon: Users,
       color: "bg-blue-500"
     },
     {
-      number: "99.9%",
-      label: "Uptime Guarantee",
-      icon: Zap,
+      number: "150+",
+      label: "Live TV Channels",
+      icon: Tv,
       color: "bg-green-500"
     },
     {
-      number: "24/7",
-      label: "Customer Support",
-      icon: Wrench,
+      number: "10+",
+      label: "Streaming Services",
+      icon: Play,
       color: "bg-purple-500"
     },
     {
-      number: "1GB",
-      label: "Max Speed Available",
-      icon: Rocket,
+      number: "1 Gbps",
+      label: "Fiber Internet Speed",
+      icon: Wifi,
       color: "bg-orange-500"
     }
   ];
@@ -34,10 +34,10 @@ export default function StatsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-gray-900 mb-4">
-            Trusted by Thousands
+            The Ultimate Entertainment Bundle
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto px-4">
-            Join the growing community of satisfied customers who chose Zentrix Solution for their internet needs
+            High-speed internet combined with unlimited streaming - everything you need in one package
           </p>
         </div>
 

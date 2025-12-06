@@ -6,19 +6,19 @@ export default function HowItWorks() {
     {
       number: "1",
       title: "Choose your bundle",
-      description: "Select the perfect internet plan that fits your needs and budget.",
+      description: "Select internet speed + streaming services that match your viewing habits.",
       icon: ClipboardList
     },
     {
       number: "2", 
-      title: "Fill out questionnaire",
-      description: "Complete our quick form with your address and preferences.",
+      title: "Quick setup",
+      description: "Install fiber modem and activate your streaming accounts instantly.",
       icon: FileText
     },
     {
       number: "3",
-      title: "Post so you please",
-      description: "Get connected within 24 hours and start enjoying blazing-fast internet.",
+      title: "Start watching!",
+      description: "Begin streaming on any device - TV, phone, tablet, or computer.",
       icon: Rocket
     }
   ];
@@ -30,11 +30,11 @@ export default function HowItWorks() {
         <div className="text-center mb-16">
           <div className="inline-block bg-white rounded-2xl p-6 shadow-lg mb-8 transform rotate-3 hover:rotate-0 transition-transform duration-300">
             <h2 className="text-3xl md:text-4xl font-black text-gray-900 mb-2">
-              YOU JUST ORDERED A BUNDLE!
+              GET STREAMING IN MINUTES!
             </h2>
             <div className="flex items-center justify-center space-x-2">
               <Hand className="w-6 h-6 text-gray-600" />
-              <span className="text-lg text-gray-600">Here's what happens next...</span>
+              <span className="text-lg text-gray-600">Here's how easy it is...</span>
             </div>
           </div>
         </div>
@@ -65,13 +65,13 @@ export default function HowItWorks() {
         {/* CTA Section */}
         <div className="text-center">
           <h3 className="text-3xl md:text-4xl font-black text-gray-900 mb-4">
-            I'm intrigued. How does this work?
+            Ready to upgrade your entertainment?
           </h3>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Ready to experience lightning-fast internet? Let's get you connected!
+            Get lightning-fast internet with access to unlimited streaming for less than you're paying now!
           </p>
           <Button className="bg-coral-500 hover:bg-coral-600 text-white font-bold px-8 py-4 rounded-full text-lg transform hover:scale-105 transition-all duration-200 shadow-lg">
-            CHECK OUT PLANS
+            VIEW STREAMING BUNDLES
           </Button>
         </div>
       </div>

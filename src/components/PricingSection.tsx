@@ -6,31 +6,33 @@ import { Check, Signal } from 'lucide-react';
 export default function PricingSection() {
   const plans = [
     {
-      name: "The Basic Bundle",
-      price: "25",
-      description: "Perfect for light internet users",
+      name: "Stream Starter",
+      price: "49",
+      description: "Perfect for casual streaming",
       features: [
-        "Up to 100 Mbps",
-        "Free installation", 
-        "24/7 Support",
-        "No data caps",
-        "1 month free trial"
+        "300 Mbps Fiber Internet",
+        "Netflix Premium included",
+        "Hulu (No Ads) included",
+        "Disney+ included",
+        "Free installation",
+        "Stream on 4 devices"
       ],
       color: "bg-white",
       textColor: "text-gray-900",
       buttonColor: "bg-green-500 hover:bg-green-600"
     },
     {
-      name: "The Premium Bundle", 
-      price: "50",
-      description: "Ideal for heavy users and families",
+      name: "Ultimate Streaming", 
+      price: "89",
+      description: "Everything you need to binge",
       features: [
-        "Up to 500 Mbps",
-        "Free router & installation",
-        "Priority support", 
-        "Unlimited data",
-        "3 months free trial",
-        "Free Wi-Fi extender"
+        "1 Gbps Fiber Internet",
+        "Netflix, Hulu, Disney+ included",
+        "HBO Max & Paramount+ included",
+        "150+ Live TV channels",
+        "Unlimited devices",
+        "4K streaming ready",
+        "Free router & installation"
       ],
       color: "bg-purple-600",
       textColor: "text-white",
@@ -45,10 +47,10 @@ export default function PricingSection() {
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white mb-4">
-            Get Started! Select your Internet Bundle
+            Choose Your Entertainment Package
           </h2>
           <p className="text-lg sm:text-xl text-red-100 max-w-2xl mx-auto px-4">
-            Choose the perfect plan that fits your lifestyle and budget
+            High-speed internet with premium streaming access - everything you need in one package
           </p>
         </div>
 
@@ -101,7 +103,7 @@ export default function PricingSection() {
         {/* Bottom note */}
         <div className="text-center mt-8 sm:mt-12">
           <p className="text-red-100 text-xs sm:text-sm px-4">
-            All plans include free installation • No contracts • Cancel anytime
+            All streaming services included • No hidden fees • No contracts • Cancel anytime
           </p>
         </div>
       </div>

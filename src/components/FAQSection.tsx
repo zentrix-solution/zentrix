@@ -6,34 +6,34 @@ export default function FAQSection() {
 
   const faqs = [
     {
-      question: "How do you ensure brand consistency across posts?",
-      answer: "We maintain strict brand guidelines and use advanced AI tools to ensure every piece of content aligns with your brand voice, visual identity, and messaging strategy."
+      question: "What services does Zenstream offer?",
+      answer: "Zenstream provides a range of connectivity solutions, including high-speed internet, cellular plans, bundled packages, and streaming services. As a certified JNA dealer, we offer services from top providers, ensuring you have access to the best options for your home or business."
     },
     {
-      question: "What formats do you offer for social content?",
-      answer: "We create content for all major platforms including Instagram posts, Stories, Reels, TikTok videos, LinkedIn articles, Twitter threads, and Facebook posts."
+      question: "What companies are serviceable through Zenstream and JNA?",
+      answer: "As a certified JNA dealer, Zenstream offers services from leading companies, including: AT&T, Verizon, Spectrum, Comcast Xfinity, Frontier, HughesNet, CenturyLink."
     },
     {
-      question: "Do you offer industry-specific content?",
-      answer: "Yes! We specialize in creating tailored content for various industries including tech, healthcare, finance, retail, and more. Our team understands industry-specific trends and regulations."
+      question: "Is Zenstream a service provider?",
+      answer: "Zenstream is an authorized dealer and certified retailer, but we are not a direct service provider. We work with leading service providers like those listed above to connect you to their offerings, ensuring you receive the best possible service."
     },
     {
-      question: "Can I get exclusive templates?",
-      answer: "Absolutely! Premium subscribers get access to exclusive templates, custom brand assets, and priority support for template requests."
+      question: "What are Zenstream's execution charges?",
+      answer: "Zenstream charges for its execution services, which include setting up new connections, processing bill payments, plan upgrades, account cancellations, and other administrative tasks. These charges range from $49.99 to $199.99, depending on the service request, and are separate from the billing charges of the service providers you're signed up with."
     },
     {
-      question: "How fast will I get my posts?",
-      answer: "Standard turnaround is 24-48 hours for most content. Rush orders can be completed in as little as 4-6 hours for premium subscribers."
+      question: "Why are Zenstream's execution charges separate from my service provider's billing?",
+      answer: "As a separate entity, Zenstream handles the execution of your service requests independently. Our charges cover the work required to manage and complete requests like plan upgrades, new installations, or account changes. These execution fees are distinct from your provider's billing, which covers your actual internet, cellular, or streaming service."
     },
     {
-      question: "Can I get website templates?",
-      answer: "Yes! We offer a comprehensive library of website templates, landing pages, and web components that match your brand aesthetic."
+      question: "How do I contact Zenstream for support?",
+      answer: "You can reach out to our customer support team through the contact form on our website or by calling us directly on the number below. Our team is available to assist you with any inquiries, service requests, or troubleshooting needs."
     }
   ];
 
   const testimonials = [
     {
-      text: "Zentrix Solution transformed our office connectivity. We went from constant dropouts to blazing-fast, reliable internet that keeps our team productive.",
+      text: "Zenstream transformed our office connectivity. We went from constant dropouts to blazing-fast, reliable internet that keeps our team productive.",
       author: "Sarah Chen, Marketing Director"
     },
     {

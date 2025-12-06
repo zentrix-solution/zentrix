@@ -37,13 +37,13 @@ export default function About() {
   ];
 
   const milestones = [
-    { year: "2018", event: "Zentrix Solution founded with a vision to democratize high-speed internet" },
-    { year: "2019", event: "First fiber network deployed, serving 1,000 customers" },
-    { year: "2020", event: "Expanded to 5 cities, 10,000+ happy customers" },
-    { year: "2021", event: "Launched enterprise solutions, 99.9% uptime achieved" },
-    { year: "2022", event: "50,000+ customers milestone, award for Best Regional ISP" },
-    { year: "2023", event: "Gigabit speeds available, expanded to 15 cities" },
-    { year: "2024", event: "100,000+ customers, leading innovation in rural connectivity" }
+    { year: "2018", event: "Zenstream founded with a vision to bundle internet and entertainment" },
+    { year: "2019", event: "Partnered with Netflix and Hulu, first bundled packages launched" },
+    { year: "2020", event: "Expanded streaming partners to include Disney+ and HBO Max" },
+    { year: "2021", event: "50,000 streaming subscribers, recognized as fastest-growing bundle provider" },
+    { year: "2022", event: "Added live TV channels, sports packages, and 4K streaming" },
+    { year: "2023", event: "Fiber network expansion, 75,000+ subscribers streaming daily" },
+    { year: "2024", event: "10+ streaming services included, rated #1 in customer satisfaction" }
   ];
 
   const values = [
@@ -81,13 +81,12 @@ export default function About() {
             OUR STORY
           </div>
           <h1 className="text-5xl md:text-7xl font-black mb-6">
-            Connecting Communities,
+            Internet + Streaming,
             <br />
-            <span className="text-yellow-300">One Fiber at a Time</span>
+            <span className="text-yellow-300">Bundled for You</span>
           </h1>
           <p className="text-xl md:text-2xl text-purple-100 max-w-3xl mx-auto leading-relaxed">
-            We started with a simple belief: everyone deserves access to fast, reliable internet. 
-            Today, we're making that vision a reality across the region.
+            We're revolutionizing how you connect and stream. High-speed fiber internet bundled with premium streaming services - everything you need in one simple package.
           </p>
         </div>
       </section>
@@ -101,30 +100,29 @@ export default function About() {
                 OUR MISSION
               </div>
               <h2 className="text-4xl md:text-5xl font-black text-gray-900 mb-6">
-                Bridging the Digital Divide
+                Simplifying Entertainment
               </h2>
               <p className="text-xl text-gray-600 mb-8 leading-relaxed">
-                Our mission is to provide lightning-fast, reliable internet access to underserved communities, 
-                empowering businesses, families, and individuals to thrive in the digital age.
+                Our mission is to eliminate the hassle of managing multiple subscriptions. Get fiber internet and all your favorite streaming services in one bundle at one price.
               </p>
                 <div className="space-y-4">
                   <div className="flex items-center">
                     <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-4">
                       <Check className="w-4 h-4 text-white" />
                     </div>
-                    <span className="text-gray-700">Affordable high-speed internet for all</span>
+                    <span className="text-gray-700">10+ streaming services included</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-4">
                       <Check className="w-4 h-4 text-white" />
                     </div>
-                    <span className="text-gray-700">Supporting local economic growth</span>
+                    <span className="text-gray-700">Fiber-fast speeds for 4K streaming</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-6 h-6 bg-green-500 rounded-full flex items-center justify-center mr-4">
                       <Check className="w-4 h-4 text-white" />
                     </div>
-                    <span className="text-gray-700">Exceptional customer service</span>
+                    <span className="text-gray-700">One bill, incredible savings</span>
                   </div>
                 </div>
             </div>
@@ -136,8 +134,7 @@ export default function About() {
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    To be the leading internet service provider that transforms communities through 
-                    innovative technology, reliable connectivity, and unwavering commitment to customer success.
+                    To become America's #1 choice for bundled internet and streaming, making premium entertainment accessible and affordable for every household.
                   </p>
                 </div>
               </Card>
@@ -243,10 +240,10 @@ export default function About() {
       <section className="py-20 bg-gradient-to-br from-purple-600 via-purple-700 to-indigo-800 text-white">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h2 className="text-4xl md:text-5xl font-black mb-6">
-            Ready to Join Our Growing Community?
+            Ready to Start Streaming & Saving?
           </h2>
           <p className="text-xl text-purple-100 mb-8 max-w-2xl mx-auto">
-            Experience the Zentrix difference. Fast speeds, reliable service, and local support.
+            Join thousands who switched to Zenstream and now enjoy fiber internet + unlimited streaming for less.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="tel:+18336601996">

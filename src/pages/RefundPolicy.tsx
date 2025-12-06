@@ -96,7 +96,7 @@ export default function RefundPolicy() {
                   <div className="w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
                     <span className="text-white text-sm">✓</span>
                   </div>
-                  <span className="text-gray-700">First-time customers with Zentrix Solution</span>
+                  <span className="text-gray-700">First-time customers with Zenstream</span>
                 </div>
               </div>
             </div>
@@ -261,7 +261,7 @@ export default function RefundPolicy() {
                     </div>
                     <div>
                       <p className="font-semibold">Email</p>
-                      <p className="text-green-100">refunds@zentrixsolution.com</p>
+                      <p className="text-green-100">refunds@zenstreamsolution.com</p>
                     </div>
                   </div>
                   <div className="flex items-start">
